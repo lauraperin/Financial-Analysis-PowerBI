@@ -338,7 +338,7 @@ This analysis provides a comprehensive view of how different aspects of the busi
 #### Overview
 Horizontal analysis of the Balance Sheet involves comparing financial data across multiple periods to assess the growth, decline, or stability of different line items. This analysis uses percentage changes to highlight how assets, liabilities, and equity components have evolved over time.
 **[]( bs_perc)**  
-## Assets
+#### Assets
 
 ##### Current Assets
 
