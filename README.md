@@ -71,7 +71,7 @@ The analysis is based on two primary datasets: **Business Data** and **Budget Da
 ### 1. Profit and Loss (P&L)
 
 #### a. Sales Revenue Table Breakdown
-**[Plot: Gross Profit Quarterly]( sales_table)**  
+![Plot: Gross Profit Quarterly](Plots_and_tables/sales_table.png) 
 ##### Interest & Tax
 - **Taxation**: Increased from -137.582 in 2018 to -279.082 in 2020. This suggests a growing tax burden on the company over the years.
 - **Interest Expense**: Grew steadily from -15.840 in 2018 to -25.404 in 2020, indicating increasing debt levels or higher interest rates on existing debt.
@@ -112,7 +112,7 @@ The analysis is based on two primary datasets: **Business Data** and **Budget Da
 
 Gross profit shows a healthy upward trend, indicating that the company's sales are growing at a much faster rate than the cost of goods sold (COGS). This suggests that the company is efficiently managing its production or acquisition costs, or it is pricing its goods/services effectively.
 
-**[Plot: Gross Profit Quarterly](gross_profit)**  
+![Plot: Gross Profit Quarterly](Plots_and_tables/gross_profit.png) 
 This plot shows that the gross profit trend is consistent across all years, with higher starting values in recent years as the company has grown. This indicates that while the company has become larger, it maintains the same growth trajectory in terms of gross profit.
 
 ##### Operating Profit (2018–2020)
@@ -136,7 +136,7 @@ PBIT, which accounts for interest and taxes, also shows consistent growth. Howev
 
 Net profit increased significantly from 2018 to 2019 but remained relatively flat from 2019 to 2020, even declining slightly. This suggests that the combination of higher interest expenses, taxes, and operating costs in 2020 has squeezed the company’s bottom line.
 
-**[Plot: Net Profit Over Time](net_profit)**  
+![Plot: Net Profit Over Time](Plots_and_tables/net_profit.png)  
 In this plot, each year starts at the same point in Q1, but by the end of the year, 2020 shows slightly higher net profit, while 2018 has the lowest. The trend suggests that despite fluctuations throughout the year, 2020 performed marginally better in net profit, while 2018 was weaker.
 
 ##### EBITDA (2018–2020)
@@ -148,7 +148,7 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 
 #### c. Geographical Analysis
 
-**[Plot: Cross-Country Sales](cross_country)**
+![Plot: Cross-Country Sales](Plots_and_tables/cross_country.png)
 
 ##### Sales Revenue by Country
 - **USA**: The USA has the highest sales across all periods. It shows continuous growth in sales revenue, leading the company's global performance.
@@ -260,7 +260,7 @@ The company shows strong growth in assets, particularly in cash, receivables, an
 
 #### Overview
 Horizontal analysis compares financial data across multiple periods to identify trends, growth rates, and changes in specific line items. This analysis uses percentages to indicate how each account has changed relative to the previous period, providing insight into performance over time.
-**[]( pl_perc)**  
+![plot](Plots_and_tables/pl_perc.png)  
 #### Trading Account
 
 - **Sales:**
@@ -337,7 +337,7 @@ This analysis provides a comprehensive view of how different aspects of the busi
 
 #### Overview
 Horizontal analysis of the Balance Sheet involves comparing financial data across multiple periods to assess the growth, decline, or stability of different line items. This analysis uses percentage changes to highlight how assets, liabilities, and equity components have evolved over time.
-**[]( bs_perc)**  
+![](Plots_and_tables/bs_perc.png)  
 #### Assets
 
 ##### Current Assets
