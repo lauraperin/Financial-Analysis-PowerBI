@@ -434,6 +434,7 @@ This analysis is crucial for understanding the company's financial health, the e
 The table presents a breakdown of sales data over several years, focusing on `Total_FTP_Budget`, `Total_FTP`, and `Variance_FTP` across different periods (Year, Quarter, Month, Day). The `salesBalance` plot provides a visual representation of these metrics, showing trends in sales performance and budget adherence over time.
 
 **Key Observations:**
+
 ![](Plots_and_tables/salesBalance.png)
 
 a. **Annual Trends:**
