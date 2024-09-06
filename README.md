@@ -113,6 +113,7 @@ The analysis is based on two primary datasets: **Business Data** and **Budget Da
 Gross profit shows a healthy upward trend, indicating that the company's sales are growing at a much faster rate than the cost of goods sold (COGS). This suggests that the company is efficiently managing its production or acquisition costs, or it is pricing its goods/services effectively.
 
 ![Plot: Gross Profit Quarterly](Plots_and_tables/gross_profit.png) 
+
 This plot shows that the gross profit trend is consistent across all years, with higher starting values in recent years as the company has grown. This indicates that while the company has become larger, it maintains the same growth trajectory in terms of gross profit.
 
 ##### Operating Profit (2018–2020)
@@ -163,8 +164,16 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 - **Germany**: Germany ranks third, with lower but steadily increasing gross profit.
 - **Canada**: As with sales revenue, Canada has a low and flat gross profit, reflecting weak market performance
 
-### 2. Balance Sheet (BS) Analysis
+##### Net Profit by Country
+- **USA**: The USA and New Zealand lead in terms of net profit, with a significant boom in Q4 2020. This reflects the company's strong performance in these regions, particularly towards the end of the year.
+- **New Zealand**: As with sales and gross profit, New Zealand continues to show strong growth in net profit, ranking just behind the USA.
+- **Germany**: Germany follows the same upward trend but with lower net profit compared to the USA and New Zealand.
+- **Australia**: Notably, Australia has the lowest net profit and has experienced a decrease in profitability over time. This suggests that the market is either shrinking or facing significant challenges.
+- **UK**: The UK, along with the USA, experienced a steep loss in Q1 2020. Despite this, the USA recovered in Q4, while the UK did not, indicating a more prolonged issue in the UK market.
 
+
+### 2. Balance Sheet (BS) Analysis
+![](Plots_and_tables/BS_table.png)
 #### Assets
 
 - **Current Assets:**
@@ -213,6 +222,7 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 The company shows strong growth in assets, particularly in cash, receivables, and inventory, indicating an expansion phase. However, there is a noticeable decrease in efficiency metrics like ROCE, ROE, and asset turnover, which might suggest growing pains or inefficiencies in scaling operations. The liquidity position remains robust, with excellent current and quick ratios, although the rising receivable days and inventory turnover period could signal potential cash flow issues in the future. The company's strategic increase in long-term investments and equity suggests confidence in long-term growth, despite the declining returns on capital and equity.
 
 #### Visual Analysis (Tree Plot)
+![](Plots_and_tables/BS_account.png)
 
 - The tree plot shows that **Share Capital** takes up the most space, followed by **Cash & Cash Equivalents**. 
 - Property, plant, equipment, and **Retained Earnings** have similar sizes, indicating their relative importance in the company's balance sheet.
@@ -221,16 +231,22 @@ The company shows strong growth in assets, particularly in cash, receivables, an
 
 ### 3. Ledgers
 
-#### Overview (Plot: `ledger1`)
+#### Overview 
+![](Plots_and_tables/ledger1.png)
+
 - **Total TTD:** Displays a steady growth over time, indicating a consistent increase in transactions or values accounted for as TTD.
 - **Total FTP:** Does not follow the same steady growth pattern; instead, it had a noticeable peak in 2019, suggesting a one-time event or unusual activity that year.
 
 #### Filtered Analysis
 
-##### Trading Account (Plot: `trading`)
+##### Trading Account
+![](Plots_and_tables/trading.png)
+
 - **Total FTP:** Shows an increasing trend over time. This indicates that the trading activities have been expanding or becoming more profitable, possibly due to higher transaction volumes, improved trading strategies, or market conditions favoring trading operations.
 
-##### Operating Accounts (Plot: `operating`)
+##### Operating Accounts
+![](Plots_and_tables/operating.png)
+
 - **Total FTP and Total TTD:** Both metrics show a significant decrease. This decline suggests that the core operational activities are either contracting, facing challenges, or experiencing lower profitability. The downturn in both metrics might indicate operational inefficiencies, market challenges, or strategic shifts away from certain operations.
 
 ##### Country-Specific Analysis
@@ -238,14 +254,20 @@ The company shows strong growth in assets, particularly in cash, receivables, an
 ###### General Country Behavior
 - All countries generally behave the same, implying that the trends observed in the total metrics are consistent across different regions. This could suggest that global market trends or company-wide strategies are influencing these outcomes.
 
-###### UK Specific (Plot: `tradingUK`)
+###### UK Specific 
+![](Plots_and_tables/tradingUK.png)
+
 - **Q3 2019:** A significant decline is observed in total FTP. This sharp drop could be linked to specific events in the UK during that period, such as political changes (e.g., Brexit developments) or market disruptions. 
 - **Q4 2019:** Both net and gross profit saw a big decline, reinforcing the idea that the UK faced significant challenges during this period, possibly impacting profitability and trading activities severely.
 
-##### Non-Operating Accounts (Plot: `nonop`)
+##### Non-Operating Accounts 
+![](Plots_and_tables/nonop.png)
+
 - **Q4 2020:** Total FTP shows a peak. This peak could be related to non-operational activities such as one-time financial gains, asset sales, or other extraordinary items that are not part of the company's core operations but had a significant impact in that quarter.
 
-##### Interest and Tax (Plot: `interest`)
+##### Interest and Tax 
+![](Plots_and_tables/interest.png)
+
 - **Total TTD:** Decreasing over time, suggesting a reduction in tax-related transactions or a decrease in interest-related liabilities or revenues.
 - **Total FTP:** Exhibits seasonality, consistently decreasing from Q1 to Q4, with a peak from Q4 to Q1 of the following year. This seasonality could be due to fiscal year-end adjustments, interest accruals, or tax-related timing differences that impact the FTP metrics cyclically.
 
