@@ -282,6 +282,7 @@ The company shows strong growth in assets, particularly in cash, receivables, an
 
 #### Overview
 Horizontal analysis compares financial data across multiple periods to identify trends, growth rates, and changes in specific line items. This analysis uses percentages to indicate how each account has changed relative to the previous period, providing insight into performance over time.
+
 ![plot](Plots_and_tables/pl_perc.png)  
 #### Trading Account
 
@@ -433,6 +434,7 @@ This analysis is crucial for understanding the company's financial health, the e
 The table presents a breakdown of sales data over several years, focusing on `Total_FTP_Budget`, `Total_FTP`, and `Variance_FTP` across different periods (Year, Quarter, Month, Day). The `salesBalance` plot provides a visual representation of these metrics, showing trends in sales performance and budget adherence over time.
 
 **Key Observations:**
+![](Plots_and_tables/salesBalance.png)
 
 a. **Annual Trends:**
    - **2018:** In 2018, `Total_FTP_Budget` values were slightly higher or roughly equal to `Total_FTP`. This suggests that sales were closely aligned with the budget, with some minor variances.
@@ -456,4 +458,4 @@ The data shows a positive trend in sales performance over the three years, with 
 
 ## Conclusion
 
-This Power BI analysis provides valuable insights into the company's financial performance across multiple years and territories. The combination of profit and loss analysis, balance sheet evaluation, and budget comparisons highlights key trends and potential areas for improvement. Through horizontal analysis and detailed ledger tracking, the report offers a thorough understanding of the company's financial health and operational efficiency.
+
