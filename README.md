@@ -70,44 +70,42 @@ The analysis is based on two primary datasets: **Business Data** and **Budget Da
 
 ### 1. Profit and Loss (P&L)
 
-# Sales Revenue Analysis
-
-## 1. Sales Revenue Table Breakdown
+#### a. Sales Revenue Table Breakdown
 **[Plot: Gross Profit Quarterly]( sales_table)**  
-### Interest & Tax
+##### Interest & Tax
 - **Taxation**: Increased from -137.582 in 2018 to -279.082 in 2020. This suggests a growing tax burden on the company over the years.
 - **Interest Expense**: Grew steadily from -15.840 in 2018 to -25.404 in 2020, indicating increasing debt levels or higher interest rates on existing debt.
 - **Total Interest & Tax**: Similarly, the total negative impact has increased from -153.422 in 2018 to -304.486 in 2020. This reflects a growing financial cost burden on the company.
 
-### Non-operating Revenue
+##### Non-operating Revenue
 - **Gain/Loss on Sales of Assets**: This has risen from 4.850 to 6.351, indicating some growth in asset sales.
 - **Interest Income**: Significant growth from 13.496 in 2018 to 30.868 in 2020, which might mean better returns on investments or increased interest-earning assets.
 - **Dividend Income**: Increased from 15.917 to 30.030, which suggests the company is receiving higher dividends, possibly from investments in other companies.
 - **Exchange Loss/Gain**: Increased from 2.214 to 5.016, showing positive growth in foreign exchange.
 - **Total Non-operating Revenue**: This increased from 36.477 to 72.265, doubling over the period, suggesting more efficient management of non-operating income sources.
 
-### Operating Account
+##### Operating Account
 - **Amortization**: Decreased slightly from -19.008 in 2018 to -15.960 in 2020.
 - **Depreciation**: Increased sharply from -387.996 to -698.880, which indicates that the company's assets (likely fixed assets) are depreciating faster as it acquires more or updates older assets.
 - **Total Depreciation & Amortization**: Rose from -407.004 to -714.840, reflecting the growing capital expenditure that the company is writing off over time.
 
-### Operating Expenses
+##### Operating Expenses
 - **Administration Expenses**: These jumped sharply from -632.349 to -1.617.790, indicating a significant increase in administrative costs, possibly due to expansion or higher operational complexity.
 - **Marketing (Commissions & Advertisements)**: Increased from -343.088 in 2018 to -959.128 in 2020, with both commissions and advertisement expenses growing substantially.
 - **Sales & Distribution Expenses**: Grew from -260.004 to -527.436, likely reflecting more investment in distributing products or services as the company grows.
 - **Total Operating Expenses**: Increased from -1.642.445 to -3.819.194, indicating a significant rise in the overall cost of running the company.
 
-### Trading Account
+##### Trading Account
 - **Cost of Sales**: Rose sharply from -1.192.182 to -2.494.009, indicating that the cost of producing goods or services is increasing.
 - **Sales Revenue**: Grew from 3.575.428 in 2018 to 7.835.369 in 2020, showing strong sales growth.
 - **Total Trading Profit**: Increased from 2.383.246 to 5.341.360, showing that the company is successfully maintaining a large gap between its cost of sales and sales revenue.
 
-### Overall Profitability
+##### Overall Profitability
 - The final profit figures have increased from 623.856 in 2018 to 1.289.945 in 2020. However, while there was significant growth between 2018 and 2019, the growth slowed from 2019 to 2020, indicating that the company's profits are not rising as fast as they were earlier.
 
-## 2. Analysis of Individual Measurements
+#### b. Analysis of Individual Measurements
 
-### Gross Profit (2018–2020)
+##### Gross Profit (2018–2020)
 - **2018**: 2.383.246
 - **2019**: 3.968.546
 - **2020**: 5.341.360
@@ -117,21 +115,21 @@ Gross profit shows a healthy upward trend, indicating that the company's sales a
 **[Plot: Gross Profit Quarterly](gross_profit)**  
 This plot shows that the gross profit trend is consistent across all years, with higher starting values in recent years as the company has grown. This indicates that while the company has become larger, it maintains the same growth trajectory in terms of gross profit.
 
-### Operating Profit (2018–2020)
+##### Operating Profit (2018–2020)
 - **2018**: 740.801
 - **2019**: 1.475.688
 - **2020**: 1.522.166
 
 Operating profit also grows consistently, although the growth from 2019 to 2020 is marginal. The strong operating profit is driven by increased gross profit, but the slowing growth suggests that operating expenses are beginning to take a toll on the company's bottom line.
 
-### PBIT (Profit Before Interest and Tax) (2018–2020)
+##### PBIT (Profit Before Interest and Tax) (2018–2020)
 - **2018**: 777.278
 - **2019**: 1.522.850
 - **2020**: 1.594.431
 
 PBIT, which accounts for interest and taxes, also shows consistent growth. However, like the operating profit, its growth slowed between 2019 and 2020, indicating rising costs related to taxation and interest.
 
-### Net Profit (2018–2020)
+##### Net Profit (2018–2020)
 - **2018**: 623.856
 - **2019**: 1.303.147
 - **2020**: 1.289.945
@@ -141,25 +139,25 @@ Net profit increased significantly from 2018 to 2019 but remained relatively fla
 **[Plot: Net Profit Over Time](net_profit)**  
 In this plot, each year starts at the same point in Q1, but by the end of the year, 2020 shows slightly higher net profit, while 2018 has the lowest. The trend suggests that despite fluctuations throughout the year, 2020 performed marginally better in net profit, while 2018 was weaker.
 
-### EBITDA (2018–2020)
+##### EBITDA (2018–2020)
 - **2018**: 1.147.805
 - **2019**: 2.007.744
 - **2020**: 2.237.006
 
 EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a consistent upward trend from 2018 to 2020. The rise from 1.147.805 to 2.237.006 reflects the company's ability to generate earnings before accounting for non-operating expenses and non-cash items, which highlights its operational efficiency and overall financial health.
 
-## 3. Geographical Analysis
+#### c. Geographical Analysis
 
 **[Plot: Cross-Country Sales](cross_country)**
 
-### Sales Revenue by Country
+##### Sales Revenue by Country
 - **USA**: The USA has the highest sales across all periods. It shows continuous growth in sales revenue, leading the company's global performance.
 - **New Zealand**: After Q1 2019, New Zealand became the second-highest in sales, with the most significant increase in 2020. It is a key contributor to the company's recent growth.
 - **Germany**: Germany ranks third in sales and has shown steady growth, trailing behind New Zealand but consistently increasing.
 - **Canada**: Canada has always had the lowest sales, and the sales have not increased over time. The stagnant performance in Canada contrasts with the growth seen in other regions.
 - **UK**: The UK saw a significant drop in sales in Q1 2020, pushing it into the lowest position from that point onward. This decline is concerning, as it indicates potential issues in the UK market.
 
-### Gross Profit by Country
+##### Gross Profit by Country
 - **USA**: The USA has the highest gross profit, reflecting its strong sales performance. The trend mirrors that of sales revenue.
 - **New Zealand**: New Zealand follows closely behind the USA in gross profit, having overtaken Germany. The rise in gross profit reflects its increasing market presence.
 - **Germany**: Germany ranks third, with lower but steadily increasing gross profit.
@@ -167,11 +165,7 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 
 ### 2. Balance Sheet (BS) Analysis
 
-# Balance Sheet and Metrics Analysis
-
-## Balance Sheet Analysis
-
-### Assets
+#### Assets
 
 - **Current Assets:**
   - **Cash & Cash Equivalents:** Increased significantly from 2018 to 2019, followed by a slight decrease in 2020. This suggests a robust cash position in 2019, potentially reflecting strong operational cash flows or liquid asset management.
@@ -182,7 +176,7 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 - **Non-Current Assets:**
   - Continuous growth in non-current assets, which could imply investments in long-term projects, property, or equipment, reflecting confidence in long-term growth.
 
-### Liabilities and Owners' Equity
+#### Liabilities and Owners' Equity
 
 - **Current Liabilities:**
   - Gradual increase in current liabilities suggests that the company is taking on more short-term obligations, which might be used to finance the growing operations.
@@ -194,7 +188,7 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
   - **Share Capital:** Substantial increase over the years, possibly from issuing new shares, indicating that the company is raising equity capital.
   - **Retained Earnings:** Growth in retained earnings shows that the company is consistently profitable and reinvesting earnings back into the business.
 
-## Metrics Analysis
+#### Metrics Analysis
 
 - **Return on Capital Employed (ROCE):** Declining over the years, which may suggest a decreasing efficiency in using capital to generate profits.
   
@@ -214,11 +208,11 @@ EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) shows a
 
 - **Interest Cover:** Remains strong, showing that the company can comfortably cover its interest expenses.
 
-## Overall Analysis
+#### Overall Analysis
 
 The company shows strong growth in assets, particularly in cash, receivables, and inventory, indicating an expansion phase. However, there is a noticeable decrease in efficiency metrics like ROCE, ROE, and asset turnover, which might suggest growing pains or inefficiencies in scaling operations. The liquidity position remains robust, with excellent current and quick ratios, although the rising receivable days and inventory turnover period could signal potential cash flow issues in the future. The company's strategic increase in long-term investments and equity suggests confidence in long-term growth, despite the declining returns on capital and equity.
 
-## Visual Analysis (Tree Plot)
+#### Visual Analysis (Tree Plot)
 
 - The tree plot shows that **Share Capital** takes up the most space, followed by **Cash & Cash Equivalents**. 
 - Property, plant, equipment, and **Retained Earnings** have similar sizes, indicating their relative importance in the company's balance sheet.
@@ -226,49 +220,48 @@ The company shows strong growth in assets, particularly in cash, receivables, an
 
 
 ### 3. Ledgers
-# Plot Analysis: Total FTP and Total TTD
 
-## Overview (Plot: `ledger1`)
+#### Overview (Plot: `ledger1`)
 - **Total TTD:** Displays a steady growth over time, indicating a consistent increase in transactions or values accounted for as TTD.
 - **Total FTP:** Does not follow the same steady growth pattern; instead, it had a noticeable peak in 2019, suggesting a one-time event or unusual activity that year.
 
-## Filtered Analysis
+#### Filtered Analysis
 
-### Trading Account (Plot: `trading`)
+##### Trading Account (Plot: `trading`)
 - **Total FTP:** Shows an increasing trend over time. This indicates that the trading activities have been expanding or becoming more profitable, possibly due to higher transaction volumes, improved trading strategies, or market conditions favoring trading operations.
 
-### Operating Accounts (Plot: `operating`)
+##### Operating Accounts (Plot: `operating`)
 - **Total FTP and Total TTD:** Both metrics show a significant decrease. This decline suggests that the core operational activities are either contracting, facing challenges, or experiencing lower profitability. The downturn in both metrics might indicate operational inefficiencies, market challenges, or strategic shifts away from certain operations.
 
-### Country-Specific Analysis
+##### Country-Specific Analysis
 
-#### General Country Behavior
+###### General Country Behavior
 - All countries generally behave the same, implying that the trends observed in the total metrics are consistent across different regions. This could suggest that global market trends or company-wide strategies are influencing these outcomes.
 
-#### UK Specific (Plot: `tradingUK`)
+###### UK Specific (Plot: `tradingUK`)
 - **Q3 2019:** A significant decline is observed in total FTP. This sharp drop could be linked to specific events in the UK during that period, such as political changes (e.g., Brexit developments) or market disruptions. 
 - **Q4 2019:** Both net and gross profit saw a big decline, reinforcing the idea that the UK faced significant challenges during this period, possibly impacting profitability and trading activities severely.
 
-### Non-Operating Accounts (Plot: `nonop`)
+##### Non-Operating Accounts (Plot: `nonop`)
 - **Q4 2020:** Total FTP shows a peak. This peak could be related to non-operational activities such as one-time financial gains, asset sales, or other extraordinary items that are not part of the company's core operations but had a significant impact in that quarter.
 
-### Interest and Tax (Plot: `interest`)
+##### Interest and Tax (Plot: `interest`)
 - **Total TTD:** Decreasing over time, suggesting a reduction in tax-related transactions or a decrease in interest-related liabilities or revenues.
 - **Total FTP:** Exhibits seasonality, consistently decreasing from Q1 to Q4, with a peak from Q4 to Q1 of the following year. This seasonality could be due to fiscal year-end adjustments, interest accruals, or tax-related timing differences that impact the FTP metrics cyclically.
 
-## Overall Analysis
+#### Overall Analysis
 - The company's financial metrics exhibit various trends depending on the account type and region. 
 - The **UK** stands out with significant declines in **2019**, possibly due to specific external factors, while **trading accounts** show a positive trend in **FTP** over time.
 - **Operating accounts** are underperforming, which might need strategic reassessment.
 - The **non-operating accounts** and **interest** accounts show significant peaks and seasonal patterns, indicating external or cyclical factors affecting these areas.
-- 
+  
 
 ### 4. Profit & Loss (P&L) Horizontal Analysis (2018-2020)
 
-## Overview
+#### Overview
 Horizontal analysis compares financial data across multiple periods to identify trends, growth rates, and changes in specific line items. This analysis uses percentages to indicate how each account has changed relative to the previous period, providing insight into performance over time.
 **[]( pl_perc)**  
-## Trading Account
+#### Trading Account
 
 - **Sales:**
   - **2019:** Increased by **59.36%** from 2018, indicating a significant boost in revenue, possibly due to higher demand, better market penetration, or pricing strategies.
@@ -278,9 +271,9 @@ Horizontal analysis compares financial data across multiple periods to identify 
   - **2019:** Increased by **45.05%**, which is consistent with the increase in sales but at a slower rate, indicating improved gross margin.
   - **2020:** A smaller increase of **44.22%**, possibly due to cost controls or changes in the cost structure, such as better supplier terms or efficiency improvements.
 
-## Operating Account
+#### Operating Account
 
-### Operating Expenses
+##### Operating Expenses
 
 - **Sales & Distribution:**
   - **2019:** Decreased to **44.00%**, showing improved efficiency in distribution or better utilization of sales channels.
@@ -294,7 +287,7 @@ Horizontal analysis compares financial data across multiple periods to identify 
   - **2019:** Increased by **59.01%**, reflecting higher administrative costs, which might be due to expansion, higher personnel costs, or inflation.
   - **2020:** Further increased to **60.90%**, indicating that administrative expenses continue to grow, possibly outpacing revenue growth, which might be a concern.
 
-### Depreciation & Amortization
+##### Depreciation & Amortization
 
 - **Depreciation:**
   - **2019:** Increased by **33.15%**, possibly due to new capital expenditures or changes in asset valuation.
@@ -304,7 +297,7 @@ Horizontal analysis compares financial data across multiple periods to identify 
   - **2019:** Decreased by **18.69%**, suggesting a reduction in amortizable assets or the completion of amortization schedules.
   - **2020:** Slightly increased by **3.26%**, indicating minor additions to intangible assets or a change in amortization policies.
 
-## Non-Operating
+#### Non-Operating
 
 - **Exchange Loss/Gain:**
   - **2019:** Significant increase by **67.34%**, possibly due to favorable currency movements or successful hedging strategies.
@@ -322,7 +315,7 @@ Horizontal analysis compares financial data across multiple periods to identify 
   - **2019:** Increased by **4.85%**, suggesting some profitable asset sales.
   - **2020:** Further increased to **24.90%**, indicating more significant or more frequent asset disposals at a gain.
 
-## Interest & Tax
+#### Interest & Tax
 
 - **Interest Expense:**
   - **2019:** Increased by **36.36%**, reflecting higher debt levels or increased borrowing costs.
@@ -332,7 +325,7 @@ Horizontal analysis compares financial data across multiple periods to identify 
   - **2019:** Increased by **43.99%**, which could be due to higher profitability or changes in tax regulations.
   - **2020:** Slightly decreased to **40.88%**, suggesting a reduction in taxable income or changes in tax strategy.
 
-## Summary
+#### Summary
 This horizontal analysis highlights the company's performance trends from 2018 to 2020 across various accounts. The **Trading Account** shows fluctuating sales growth, with **Cost of Sales** being managed effectively. **Operating Expenses** generally decreased, indicating better cost control, especially in **Sales & Distribution**. However, **Administration** costs continue to rise, which could be a concern. 
 
 The **Non-Operating** section shows significant volatility, particularly in **Exchange Gains/Losses** and **Interest Income**. The latter saw substantial growth, indicating better management of financial assets. The **Interest & Tax** section reveals fluctuating interest expenses and stable but high taxation, reflecting changes in debt structure and profitability.
@@ -342,12 +335,12 @@ This analysis provides a comprehensive view of how different aspects of the busi
 
 ### 5. Balance Sheet (BS) Horizontal Analysis Analysis (2018-2020)
 
-## Overview
+#### Overview
 Horizontal analysis of the Balance Sheet involves comparing financial data across multiple periods to assess the growth, decline, or stability of different line items. This analysis uses percentage changes to highlight how assets, liabilities, and equity components have evolved over time.
 **[]( bs_perc)**  
 ## Assets
 
-### Current Assets
+##### Current Assets
 
 - **Cash & Cash Equivalents:**
   - **2019:** Significant increase by **142.49%**, indicating a strong accumulation of cash, which might suggest improved liquidity, higher cash flows from operations, or a strategic decision to hold more cash.
@@ -365,7 +358,7 @@ Horizontal analysis of the Balance Sheet involves comparing financial data acros
   - **2019:** Increased by **148.45%**, reflecting a strategic decision to allocate more resources to investments, possibly in response to favorable market conditions or as part of a diversification strategy.
   - **2020:** Continued increase of **104.56%**, indicating sustained focus on growing the investment portfolio, which could enhance future income streams but also increase exposure to market risks.
 
-### Non-Current Assets
+##### Non-Current Assets
 
 - **Property, Plant, & Equipment (PP&E):**
   - **2019:** Increased by **161.44%**, suggesting significant capital investments in physical assets, possibly for expansion, upgrading facilities, or enhancing production capacity.
@@ -375,11 +368,11 @@ Horizontal analysis of the Balance Sheet involves comparing financial data acros
   - **2019:** Increased by **101.06%**, highlighting significant investments in intangible assets such as patents, trademarks, or goodwill, possibly due to acquisitions or internal development.
   - **2020:** Growth slowed to **55.21%**, indicating a continued but reduced focus on intangible assets, which might reflect a strategic shift or a more conservative valuation.
 
-## Liabilities and Owners Equity
+#### Liabilities and Owners Equity
 
-### Liabilities
+##### Liabilities
 
-#### Current Liabilities
+###### Current Liabilities
 
 - **Trade Payables:**
   - **2019:** Increased by **73.47%**, reflecting higher obligations to suppliers, which could be due to increased purchasing activities or extended payment terms.
@@ -389,13 +382,13 @@ Horizontal analysis of the Balance Sheet involves comparing financial data acros
   - **2019:** Increased by **38.97%**, indicating higher short-term liabilities, possibly due to accrued expenses, taxes payable, or other obligations.
   - **2020:** Growth slowed to **7.87%**, suggesting better control over other payables or a strategic focus on reducing short-term liabilities.
 
-#### Long Term Liabilities
+###### Long Term Liabilities
 
 - **Long Term Obligations:**
   - **2019:** Increased by **118.27%**, indicating a significant rise in long-term debt or other obligations, possibly due to financing for capital projects, acquisitions, or refinancing existing debt.
   - **2020:** Growth slowed to **64.09%**, reflecting continued but more moderate accumulation of long-term liabilities, which might indicate a more balanced approach to leveraging.
 
-### Owners Equity
+##### Owners Equity
 
 - **Share Capital:**
   - **2019:** Increased by **142.35%**, possibly due to a new equity issuance, reflecting the company's efforts to raise capital for expansion, reduce debt, or finance operations.
@@ -405,14 +398,12 @@ Horizontal analysis of the Balance Sheet involves comparing financial data acros
   - **2019:** Substantial increase by **270.01%**, indicating strong profitability or a strategic decision to retain more earnings rather than distribute them as dividends.
   - **2020:** Continued increase by **66.41%**, reflecting sustained profitability and a strategy to build reserves, possibly for future investments or to buffer against economic uncertainties.
 
-## Summary
+#### Summary
 This horizontal analysis of the Balance Sheet provides insights into the company's financial position over the period from 2018 to 2020. The analysis reveals significant growth in both current and non-current assets, with notable increases in **Inventory**, **PP&E**, and **Investments**, suggesting a focus on expansion and long-term growth. 
 
 On the liabilities side, there is a marked increase in both **Trade Payables** and **Long-Term Obligations**, which indicates rising obligations that may require careful management to avoid liquidity issues. **Owners Equity** shows strong growth, particularly in **Retained Earnings**, suggesting that the company has been profitable and is retaining earnings to strengthen its financial position.
 
 This analysis is crucial for understanding the company's financial health, the effectiveness of its investment strategies, and its ability to manage liabilities and equity effectively.
-
-
 
 ### 6. Sales Budget vs Actual
 
@@ -421,14 +412,14 @@ The table presents a breakdown of sales data over several years, focusing on `To
 
 **Key Observations:**
 
-1. **Annual Trends:**
+a. **Annual Trends:**
    - **2018:** In 2018, `Total_FTP_Budget` values were slightly higher or roughly equal to `Total_FTP`. This suggests that sales were closely aligned with the budget, with some minor variances.
    - **2019 and 2020:** In these years, `Total_FTP` slightly exceeded the `Total_FTP_Budget`, indicating improved sales performance compared to the budget. This trend shows growth in sales over time.
 
-2. **Monthly Patterns:**
+b. **Monthly Patterns:**
    - The behavior across the months is consistent each year, but with increasing values as the years progress. This suggests a seasonal pattern in sales with an overall upward trend.
 
-3. **Variance Analysis:**
+c. **Variance Analysis:**
    - **Positive Variance:** When `Total_FTP` exceeds `Total_FTP_Budget`, a positive variance is observed, reflecting better-than-expected sales.
    - **Negative Variance:** When `Total_FTP` is below the budget, the variance is negative, indicating underperformance against the budget.
    - In 2018, the variance values are mostly negative or zero, showing a closer alignment or slight underperformance relative to the budget.
